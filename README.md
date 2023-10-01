@@ -11,12 +11,6 @@ Try it with:
 go run ./main.go '1 + 2 * 3'
 ```
 
-## Limitations
-
-`pratt` is intended for demonstration and education purposes only. It is
-purposefully thin on error handling. The input expression is expected to be a
-valid, using known operators only: `<`, `+`, `-`, `*`, `/`. Operators and
-operands must be separated by a single space, e.g. `1 + 2 * 3`.
 
 [Pratt parser]: https://en.wikipedia.org/wiki/Pratt_parser
 
@@ -30,4 +24,12 @@ Try it with:
 ```
 go install ./...
 pratt '1 * 2 + 3 * 4' | svg -o
+```
+
+## Installation
+
+You can install by using the following command.
+
+```shell
+go install github.com/gozeloglu/pratt@latest
 ```
