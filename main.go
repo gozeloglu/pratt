@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"flag"
 	"fmt"
-	"strings"
+	evyStr "go.evy.dev/pratt/internal/string"
 )
 
 func main() {
@@ -37,7 +37,7 @@ type tokens struct {
 }
 
 func newTokens(input string) *tokens {
-	return &tokens{toks: strings.Split(input, " ")}
+	return &tokens{toks: evyStr.SplitByOperators(input)}
 }
 
 func (t *tokens) done() bool {
