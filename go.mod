@@ -1,4 +1,4 @@
-module go.evy.dev/pratt
+module github.com/gozeloglu/pratt
 
 go 1.21
 

@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"flag"
 	"fmt"
-	evyStr "go.evy.dev/pratt/internal/string"
+	evyStr "github.com/gozeloglu/pratt/internal/string"
 )
 
 func main() {
