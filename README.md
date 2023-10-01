@@ -33,3 +33,11 @@ You can install by using the following command.
 ```shell
 go install github.com/gozeloglu/pratt@latest
 ```
+
+## Credit
+
+Thanks to [@juliaogris](https://github.com/juliaogris) for this tool. Also, thanks to her for letting me improve new features.
+
+## LICENSE
+
+[MIT](LICENSE)
